@@ -1,5 +1,5 @@
 [project]
 name = "travel-health-exposure"
 version = "0.1.0"
-description = "旅居健康暴露追踪器领域契约"
+description = "旅居健康暴露追踪器领域契约与规则"
 requires-python = ">=3.11"

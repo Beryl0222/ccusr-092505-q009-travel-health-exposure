@@ -20,10 +20,20 @@
       "type": "string",
       "enum": [
         "ITINERARY_CONFIRMED",
+        "ITINERARY_CANCELLED",
         "EXPOSURE_RECORDED",
+        "PROTECTION_RECORDED",
         "REMINDER_SCHEDULED",
+        "REMINDER_DELIVERED",
+        "REMINDER_DELIVERY_FAILED",
+        "REMINDER_CONFIRMED",
         "SYMPTOM_REPORTED",
-        "SHARE_REVOKED"
+        "DIAGNOSIS_ATTACHED",
+        "SHARE_GRANTED",
+        "SHARE_REVOKED",
+        "PUBLIC_HEALTH_RETAINED",
+        "INVESTIGATION_OPENED",
+        "INVESTIGATION_CLOSED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +42,10 @@
         "travel_itinerary",
         "exposure_record",
         "health_reminder",
-        "clinical_share"
+        "clinical_share",
+        "symptom_report",
+        "public_health_fact",
+        "investigation_case"
       ]
     },
     "aggregate_id": {
