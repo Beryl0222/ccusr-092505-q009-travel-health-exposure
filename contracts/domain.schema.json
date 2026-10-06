@@ -32,7 +32,8 @@
         "travel_itinerary",
         "exposure_record",
         "health_reminder",
-        "clinical_share"
+        "clinical_share",
+        "symptom_report"
       ]
     },
     "aggregate_id": {
